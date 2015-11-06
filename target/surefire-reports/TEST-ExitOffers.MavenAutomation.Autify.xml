@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="35.284" errors="1" skipped="0" tests="1" name="ExitOffers.MavenAutomation.Autify">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sstroman/MavenAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="Autify"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sstroman/MavenAutomation"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6w/sdcppqcn62510xx_shj_7qt00000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sstroman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sstroman"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sstroman"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=Autify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="/Users/sstroman/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="35.284" classname="ExitOffers.MavenAutomation.Autify" name="testAutifyGoGMI">
+    <error message="{&quot;errorMessage&quot;:&quot;Unable to find element with id &apos;ckContainer&apos;&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Accept&quot;:&quot;application/json, image/png&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Length&quot;:&quot;36&quot;,&quot;Content-Type&quot;:&quot;application/json; charset=utf-8&quot;,&quot;Host&quot;:&quot;localhost:33320&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;POST&quot;,&quot;post&quot;:&quot;{\&quot;using\&quot;:\&quot;id\&quot;,\&quot;value\&quot;:\&quot;ckContainer\&quot;}&quot;,&quot;url&quot;:&quot;/element&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;element&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/element&quot;,&quot;relative&quot;:&quot;/element&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/element&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;element&quot;]},&quot;urlOriginal&quot;:&quot;/session/da48a460-84bc-11e5-8524-d3e5803eb5cd/element&quot;}}
+Command duration or timeout: 269 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;LNX-C02NM04RG3QR-sstroman.local&apos;, ip: &apos;192.168.32.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: da48a460-84bc-11e5-8524-d3e5803eb5cd
+Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
+Capabilities [{platform=MAC, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.1.0, locationContextEnabled=false, version=1.9.7, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=false, browserConnectionEnabled=false, webStorageEnabled=false, nativeEvents=true, proxy={proxyType=direct}, applicationCacheEnabled=false, driverName=ghostdriver, takesScreenshot=false}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: {&quot;errorMessage&quot;:&quot;Unable to find element with id &apos;ckContainer&apos;&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Accept&quot;:&quot;application/json, image/png&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Length&quot;:&quot;36&quot;,&quot;Content-Type&quot;:&quot;application/json; charset=utf-8&quot;,&quot;Host&quot;:&quot;localhost:33320&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;POST&quot;,&quot;post&quot;:&quot;{\&quot;using\&quot;:\&quot;id\&quot;,\&quot;value\&quot;:\&quot;ckContainer\&quot;}&quot;,&quot;url&quot;:&quot;/element&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;element&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/element&quot;,&quot;relative&quot;:&quot;/element&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/element&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;element&quot;]},&quot;urlOriginal&quot;:&quot;/session/da48a460-84bc-11e5-8524-d3e5803eb5cd/element&quot;}}
+Command duration or timeout: 269 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;LNX-C02NM04RG3QR-sstroman.local&apos;, ip: &apos;192.168.32.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: da48a460-84bc-11e5-8524-d3e5803eb5cd
+Driver info: org.openqa.selenium.phantomjs.PhantomJSDriver
+Capabilities [{platform=MAC, acceptSslCerts=false, javascriptEnabled=true, browserName=phantomjs, rotatable=false, driverVersion=1.1.0, locationContextEnabled=false, version=1.9.7, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=false, browserConnectionEnabled=false, webStorageEnabled=false, nativeEvents=true, proxy={proxyType=direct}, applicationCacheEnabled=false, driverName=ghostdriver, takesScreenshot=false}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at ExitOffers.MavenAutomation.Autify.testAutifyGoGMI(Autify.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;LNX-C02NM04RG3QR-sstroman.local&apos;, ip: &apos;192.168.32.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
+	... 35 more
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: {&quot;errorMessage&quot;:&quot;Unable to find element with id &apos;ckContainer&apos;&quot;,&quot;request&quot;:{&quot;headers&quot;:{&quot;Accept&quot;:&quot;application/json, image/png&quot;,&quot;Connection&quot;:&quot;Keep-Alive&quot;,&quot;Content-Length&quot;:&quot;36&quot;,&quot;Content-Type&quot;:&quot;application/json; charset=utf-8&quot;,&quot;Host&quot;:&quot;localhost:33320&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;POST&quot;,&quot;post&quot;:&quot;{\&quot;using\&quot;:\&quot;id\&quot;,\&quot;value\&quot;:\&quot;ckContainer\&quot;}&quot;,&quot;url&quot;:&quot;/element&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;element&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/element&quot;,&quot;relative&quot;:&quot;/element&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/element&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;element&quot;]},&quot;urlOriginal&quot;:&quot;/session/da48a460-84bc-11e5-8524-d3e5803eb5cd/element&quot;}}
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;LNX-C02NM04RG3QR-sstroman.local&apos;, ip: &apos;192.168.32.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+</error>
+    <system-out>Start Website
+loading lander
+lander loaded
+Title of page:Online Car Insurance Quotes - Get My Insurance
+Zip Entered
+Submit Button Clicked
+https://go.getmyinsurance.com/loader?uuid=7225e1ab-38fe-4b64-8b62-23602b5066fe
+Lander Submitted Successfully
+closing lander
+lander closed
+loading form
+form loaded
+Are you currently insured?
+Currently Insured = Yes
+Are you a homeowner?
+Home Owner = Yes
+Starting to fill out vehicle information
+Finished filling out vehicle information
+Starting to fill out current auto coverage
+Finished filling out current auto coverage
+Starting to fill out Personal Inforamtion
+Finished Filling out Personal Information
+Starting to fill out Phone Number
+Finished filling out Phone Number
+Starting to fill out Zip City and State
+Finished filling out Zip City and State
+Submited offers page
+Verify banner on offers page
+https://go.getmyinsurance.com/f/mf/?_s=QAautoKPXAsrcCakeCheapIns
+https://go.getmyinsurance.com/f/mf/?_s=QAautoKPXAsrcCakeCheapIns
+</system-out>
+    <system-err>Nov 06, 2015 2:30:24 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: executable: /Users/sstroman/MavenAutomation/target/phantomjs-maven-plugin/phantomjs-1.9.7-macosx/bin/phantomjs
+Nov 06, 2015 2:30:24 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 35833
+Nov 06, 2015 2:30:24 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=35833, --webdriver-logfile=/Users/sstroman/MavenAutomation/phantomjsdriver.log]
+Nov 06, 2015 2:30:24 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2015-11-06T19:30:25.722Z] GhostDriver - Main - running on port 35833
+[INFO  - 2015-11-06T19:30:25.932Z] Session [d48b5f90-84bc-11e5-b5ac-854b4287da85] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2015-11-06T19:30:25.932Z] Session [d48b5f90-84bc-11e5-b5ac-854b4287da85] - page.customHeaders:  - {}
+[INFO  - 2015-11-06T19:30:25.932Z] Session [d48b5f90-84bc-11e5-b5ac-854b4287da85] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;1.9.7&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.1.0&quot;,&quot;platform&quot;:&quot;mac-unknown-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:false,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2015-11-06T19:30:25.932Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d48b5f90-84bc-11e5-b5ac-854b4287da85
+[INFO  - 2015-11-06T19:30:32.357Z] Session [d48b5f90-84bc-11e5-b5ac-854b4287da85] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2015-11-06T19:30:32.357Z] Session [d48b5f90-84bc-11e5-b5ac-854b4287da85] - page.customHeaders:  - {}
+[INFO  - 2015-11-06T19:30:32.978Z] ShutdownReqHand - _handle - About to shutdown
+Nov 06, 2015 2:30:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: executable: /Users/sstroman/MavenAutomation/target/phantomjs-maven-plugin/phantomjs-1.9.7-macosx/bin/phantomjs
+Nov 06, 2015 2:30:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 33320
+Nov 06, 2015 2:30:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=33320, --webdriver-logfile=/Users/sstroman/MavenAutomation/phantomjsdriver.log]
+Nov 06, 2015 2:30:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2015-11-06T19:30:35.478Z] GhostDriver - Main - running on port 33320
+[INFO  - 2015-11-06T19:30:35.562Z] Session [da48a460-84bc-11e5-8524-d3e5803eb5cd] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2015-11-06T19:30:35.562Z] Session [da48a460-84bc-11e5-8524-d3e5803eb5cd] - page.customHeaders:  - {}
+[INFO  - 2015-11-06T19:30:35.562Z] Session [da48a460-84bc-11e5-8524-d3e5803eb5cd] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;1.9.7&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.1.0&quot;,&quot;platform&quot;:&quot;mac-unknown-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:false,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2015-11-06T19:30:35.562Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: da48a460-84bc-11e5-8524-d3e5803eb5cd
+[ERROR - 2015-11-06T19:30:59.026Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1446838258962
+</system-err>
+  </testcase>
+</testsuite>
